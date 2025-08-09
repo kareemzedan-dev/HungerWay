@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hungerway/features/auth/presentation/views/login-view.dart';
 import 'package:hungerway/features/auth/presentation/views/register_view.dart';
 import 'package:hungerway/features/auth/presentation/views/widgets/login_view_body.dart';
+import 'package:hungerway/features/home/presentation/views/home_view.dart';
 import 'package:hungerway/features/onboarding/presentation/views/onboarding_view.dart';
 import 'package:hungerway/features/splash/presentation/views/splash_view.dart';
  
@@ -23,6 +24,8 @@ class RoutesManager {
         return MaterialPageRoute(builder: (_) =>   LoginView());
         case register:
         return MaterialPageRoute(builder: (_) => const RegisterView());
+        case home:
+        return MaterialPageRoute(builder: (_) => const HomeView());
  
  
         

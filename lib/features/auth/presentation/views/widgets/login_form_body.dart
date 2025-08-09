@@ -50,7 +50,7 @@ Padding SigninFormBody(BuildContext context) {
             hintText: "Enter your Password",
           ),
           SizedBox(height: 15),
-          RememberMeSection(),
+          RememberMeSection( ),
           SizedBox(height: 25),
 
           CustomBotton(title: "Sign In", ontap: () {

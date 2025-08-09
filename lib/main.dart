@@ -24,7 +24,7 @@ class HungerWay extends StatelessWidget {
     
  
       onGenerateRoute: (settings) => RoutesManager.onGenerateRoute(settings),
-      initialRoute: RoutesManager.splashRoute,
+      initialRoute: RoutesManager.home,
 
       
     );
